@@ -30,4 +30,10 @@ export default [
     "file": "/publications/Cache_Mar_2022.pdf",
     "cover": "/publications/Cache_Mar_2022.png"
   },
+  {
+    "name": "Cache Nov 2022",
+    "date": "2022-11-01T00:00:00.000+05:30",
+    "file": "/publications/Cache_Nov_2022.pdf",
+    "cover": "/publications/Cache_Nov_2022.png"
+  },
 ]
