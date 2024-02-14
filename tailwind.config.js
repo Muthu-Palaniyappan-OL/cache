@@ -8,6 +8,14 @@ export default {
     extend: {
       fontFamily: {
         Azonix: ["'azonix'", 'sans-serif']
+      },
+      colors: {
+        'dark-blue': '#112D4E',
+        'light-blue': '#3F72AF',
+        'lighter-blue': '#DBE2EF',
+        'whitter': '#F9F7F7'
+      },
+      animation: {
       }
     },
   },
