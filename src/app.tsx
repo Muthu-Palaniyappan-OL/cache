@@ -9,7 +9,8 @@ export function App() {
     <div class="font-Azonix">
       <Nav />
       {/* @ts-ignore */}
-      <div class="_df_book w-full" id="flipbook_example" source={"/cache" + publications[index].file}></div>
+      <div class="_df_book w-full" id="flipbook_example" source={publications[index].file}></div>
+      {/* <div class="_df_book w-full" id="flipbook_example" source={"/cache" + publications[index].file}></div> */}
     </div>
   );
 }
