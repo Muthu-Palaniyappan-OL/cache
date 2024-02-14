@@ -33,7 +33,7 @@ jobs:
           mv -f dist/* .
           git add .
           git commit -m "Deploy to GitHub Pages"
-          git remote set-url origin https://github-actions:${{ secrets.PAT_TOKEN }}@github.com/ISTACEG/ista.git
+          git remote set-url origin https://github-actions:${{ secrets.PAT_TOKEN }}@github.com/Muthu-Palaniyappan-OL/cache.git
           git push -f origin gh-pages
         env:
           PAT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
