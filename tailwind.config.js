@@ -15,8 +15,6 @@ export default {
         'lighter-blue': '#DBE2EF',
         'whitter': '#F9F7F7'
       },
-      animation: {
-      }
     },
   },
   plugins: [],
